@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Joining the Friendship school & being nice", "Gaining trust of the students", "Gathering magical artifacts", "Attempting to trap mane 6", "Plan failed and sent to Tartaras"];
+const statusMessages = ["Joining the Friendship school & being nice", "Gaining trust of the students", "Gathering magical artifacts", "Attempting to trap mane 6", "Trying to gain all of Equestrian magic", "Plan failed and sent to Tartaras", "Brought back by Grogar", "Collecting Grogars bell", "Becomimg powerful", "Trying to takeover Equestria", "Plan failed and turned into statue"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
